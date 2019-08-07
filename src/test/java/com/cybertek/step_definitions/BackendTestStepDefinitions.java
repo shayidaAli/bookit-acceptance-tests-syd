@@ -19,6 +19,7 @@ public class BackendTestStepDefinitions {
 
     @Then("team information should match database records")
     public void team_information_should_match_database_records() {
+       // System.out.println("sdfsdgdfhfghnb");
         // get the name of the team, it will be used to get tem id
         MyTeamPage myTeamPage = new MyTeamPage();
         BrowserUtils.wait(3);
